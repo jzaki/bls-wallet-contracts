@@ -1,8 +1,8 @@
 import { assert } from "https://deno.land/std@0.93.0/testing/asserts.ts";
 
-import { arrayify } from "https://cdn.skypack.dev/@ethersproject/bytes@v5.1.0?dts";
-import { keccak256 } from "https://cdn.skypack.dev/@ethersproject/keccak256@v5.1.0?dts";
-import { formatBytes32String } from "https://cdn.skypack.dev/@ethersproject/strings@v5.1.0?dts";
+import { arrayify } from "../../sky/ethers/bytes.ts";
+import { keccak256 } from "../../sky/ethers/keccak256.ts";
+import { formatBytes32String } from "../../sky/ethers/strings.ts";
 
 import { aggregate, BlsSignerFactory } from "../src/signer.ts";
 
