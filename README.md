@@ -1,3 +1,5 @@
+# Consolidated into mono-repo, [bls-wallet](https://github.com/jzaki/bls-wallet/)
+
 # BLS Contract Wallet
 Lower-cost layer 2 transactions via a smart contract wallet.
 
